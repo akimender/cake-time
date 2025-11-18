@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8704D0202E6C9FB300215788 /* CakeTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704D01F2E6C9FB300215788 /* CakeTimeApp.swift */; };
+		8704D0222E6C9FB300215788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704D0212E6C9FB300215788 /* ContentView.swift */; };
+		8704D0242E6C9FB400215788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8704D0232E6C9FB400215788 /* Assets.xcassets */; };
+		8704D0272E6C9FB400215788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8704D0262E6C9FB400215788 /* Preview Assets.xcassets */; };
+		8704D0312E6C9FB400215788 /* CakeTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704D0302E6C9FB400215788 /* CakeTimeTests.swift */; };
+		8704D03B2E6C9FB500215788 /* CakeTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704D03A2E6C9FB500215788 /* CakeTimeUITests.swift */; };
+		8704D03D2E6C9FB500215788 /* CakeTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8704D03C2E6C9FB500215788 /* CakeTimeUITestsLaunchTests.swift */; };
+		87FF357C2ECD0E06006873E4 /* BirthdayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FF35652ECD0E06006873E4 /* BirthdayManager.swift */; };
+		87FF357D2ECD0E06006873E4 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FF35662ECD0E06006873E4 /* NotificationManager.swift */; };
+		87FF357E2ECD0E06006873E4 /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FF35682ECD0E06006873E4 /* Birthday.swift */; };
+		87FF357F2ECD0E06006873E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FF356A2ECD0E06006873E4 /* Preview Assets.xcassets */; };
+		87FF35802ECD0E06006873E4 /* AddEditBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FF356C2ECD0E06006873E4 /* AddEditBirthdayView.swift */; };
+		87FF35812ECD0E06006873E4 /* BirthdayListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FF356D2ECD0E06006873E4 /* BirthdayListView.swift */; };
+		87FF35822ECD0E06006873E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FF356F2ECD0E06006873E4 /* Assets.xcassets */; };
+		87FF35832ECD0E06006873E4 /* CakeTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FF35702ECD0E06006873E4 /* CakeTimeApp.swift */; };
+		87FF35842ECD0E06006873E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FF35712ECD0E06006873E4 /* ContentView.swift */; };
+		87FF35852ECD0E06006873E4 /* CakeTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FF35732ECD0E06006873E4 /* CakeTimeTests.swift */; };
+		87FF35862ECD0E06006873E4 /* CakeTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FF35752ECD0E06006873E4 /* CakeTimeUITests.swift */; };
+		87FF35872ECD0E06006873E4 /* CakeTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FF35762ECD0E06006873E4 /* CakeTimeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8704D02D2E6C9FB400215788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8704D0142E6C9FB300215788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8704D01B2E6C9FB300215788;
+			remoteInfo = CakeTime;
+		};
+		8704D0372E6C9FB500215788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8704D0142E6C9FB300215788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8704D01B2E6C9FB300215788;
+			remoteInfo = CakeTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8704D01C2E6C9FB300215788 /* CakeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CakeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8704D01F2E6C9FB300215788 /* CakeTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeTimeApp.swift; sourceTree = "<group>"; };
+		8704D0212E6C9FB300215788 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8704D0232E6C9FB400215788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8704D0262E6C9FB400215788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8704D02C2E6C9FB400215788 /* CakeTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CakeTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8704D0302E6C9FB400215788 /* CakeTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeTimeTests.swift; sourceTree = "<group>"; };
+		8704D0362E6C9FB500215788 /* CakeTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CakeTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8704D03A2E6C9FB500215788 /* CakeTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeTimeUITests.swift; sourceTree = "<group>"; };
+		8704D03C2E6C9FB500215788 /* CakeTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87FF35652ECD0E06006873E4 /* BirthdayManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayManager.swift; sourceTree = "<group>"; };
+		87FF35662ECD0E06006873E4 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		87FF35682ECD0E06006873E4 /* Birthday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
+		87FF356A2ECD0E06006873E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87FF356C2ECD0E06006873E4 /* AddEditBirthdayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditBirthdayView.swift; sourceTree = "<group>"; };
+		87FF356D2ECD0E06006873E4 /* BirthdayListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdayListView.swift; sourceTree = "<group>"; };
+		87FF356F2ECD0E06006873E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87FF35702ECD0E06006873E4 /* CakeTimeApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeTimeApp.swift; sourceTree = "<group>"; };
+		87FF35712ECD0E06006873E4 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87FF35732ECD0E06006873E4 /* CakeTimeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeTimeTests.swift; sourceTree = "<group>"; };
+		87FF35752ECD0E06006873E4 /* CakeTimeUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeTimeUITests.swift; sourceTree = "<group>"; };
+		87FF35762ECD0E06006873E4 /* CakeTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CakeTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87FF35782ECD0E06006873E4 /* CakeTime.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CakeTime.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8704D0192E6C9FB300215788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8704D0292E6C9FB400215788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8704D0332E6C9FB500215788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8704D0132E6C9FB300215788 = {
+			isa = PBXGroup;
+			children = (
+				8704D01E2E6C9FB300215788 /* CakeTime */,
+				87FF35792ECD0E06006873E4 /* CakeTime */,
+				8704D02F2E6C9FB400215788 /* CakeTimeTests */,
+				8704D0392E6C9FB500215788 /* CakeTimeUITests */,
+				8704D01D2E6C9FB300215788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8704D01D2E6C9FB300215788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8704D01C2E6C9FB300215788 /* CakeTime.app */,
+				8704D02C2E6C9FB400215788 /* CakeTimeTests.xctest */,
+				8704D0362E6C9FB500215788 /* CakeTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8704D01E2E6C9FB300215788 /* CakeTime */ = {
+			isa = PBXGroup;
+			children = (
+				8704D01F2E6C9FB300215788 /* CakeTimeApp.swift */,
+				8704D0212E6C9FB300215788 /* ContentView.swift */,
+				8704D0232E6C9FB400215788 /* Assets.xcassets */,
+				8704D0252E6C9FB400215788 /* Preview Content */,
+			);
+			path = CakeTime;
+			sourceTree = "<group>";
+		};
+		8704D0252E6C9FB400215788 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8704D0262E6C9FB400215788 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8704D02F2E6C9FB400215788 /* CakeTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8704D0302E6C9FB400215788 /* CakeTimeTests.swift */,
+			);
+			path = CakeTimeTests;
+			sourceTree = "<group>";
+		};
+		8704D0392E6C9FB500215788 /* CakeTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8704D03A2E6C9FB500215788 /* CakeTimeUITests.swift */,
+				8704D03C2E6C9FB500215788 /* CakeTimeUITestsLaunchTests.swift */,
+			);
+			path = CakeTimeUITests;
+			sourceTree = "<group>";
+		};
+		87FF35672ECD0E06006873E4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				87FF35652ECD0E06006873E4 /* BirthdayManager.swift */,
+				87FF35662ECD0E06006873E4 /* NotificationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		87FF35692ECD0E06006873E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				87FF35682ECD0E06006873E4 /* Birthday.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		87FF356B2ECD0E06006873E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				87FF356A2ECD0E06006873E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87FF356E2ECD0E06006873E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				87FF356C2ECD0E06006873E4 /* AddEditBirthdayView.swift */,
+				87FF356D2ECD0E06006873E4 /* BirthdayListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		87FF35722ECD0E06006873E4 /* CakeTime */ = {
+			isa = PBXGroup;
+			children = (
+				87FF35672ECD0E06006873E4 /* Managers */,
+				87FF35692ECD0E06006873E4 /* Models */,
+				87FF356B2ECD0E06006873E4 /* Preview Content */,
+				87FF356E2ECD0E06006873E4 /* Views */,
+				87FF356F2ECD0E06006873E4 /* Assets.xcassets */,
+				87FF35702ECD0E06006873E4 /* CakeTimeApp.swift */,
+				87FF35712ECD0E06006873E4 /* ContentView.swift */,
+			);
+			path = CakeTime;
+			sourceTree = "<group>";
+		};
+		87FF35742ECD0E06006873E4 /* CakeTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				87FF35732ECD0E06006873E4 /* CakeTimeTests.swift */,
+			);
+			path = CakeTimeTests;
+			sourceTree = "<group>";
+		};
+		87FF35772ECD0E06006873E4 /* CakeTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87FF35752ECD0E06006873E4 /* CakeTimeUITests.swift */,
+				87FF35762ECD0E06006873E4 /* CakeTimeUITestsLaunchTests.swift */,
+			);
+			path = CakeTimeUITests;
+			sourceTree = "<group>";
+		};
+		87FF35792ECD0E06006873E4 /* CakeTime */ = {
+			isa = PBXGroup;
+			children = (
+				87FF35722ECD0E06006873E4 /* CakeTime */,
+				87FF35742ECD0E06006873E4 /* CakeTimeTests */,
+				87FF35772ECD0E06006873E4 /* CakeTimeUITests */,
+				87FF35782ECD0E06006873E4 /* CakeTime.xcodeproj */,
+			);
+			name = CakeTime;
+			sourceTree = "<group>";
+		};
+		87FF357A2ECD0E06006873E4 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8704D01B2E6C9FB300215788 /* CakeTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8704D0402E6C9FB500215788 /* Build configuration list for PBXNativeTarget "CakeTime" */;
+			buildPhases = (
+				8704D0182E6C9FB300215788 /* Sources */,
+				8704D0192E6C9FB300215788 /* Frameworks */,
+				8704D01A2E6C9FB300215788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CakeTime;
+			productName = CakeTime;
+			productReference = 8704D01C2E6C9FB300215788 /* CakeTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8704D02B2E6C9FB400215788 /* CakeTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8704D0432E6C9FB500215788 /* Build configuration list for PBXNativeTarget "CakeTimeTests" */;
+			buildPhases = (
+				8704D0282E6C9FB400215788 /* Sources */,
+				8704D0292E6C9FB400215788 /* Frameworks */,
+				8704D02A2E6C9FB400215788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8704D02E2E6C9FB400215788 /* PBXTargetDependency */,
+			);
+			name = CakeTimeTests;
+			productName = CakeTimeTests;
+			productReference = 8704D02C2E6C9FB400215788 /* CakeTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8704D0352E6C9FB500215788 /* CakeTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8704D0462E6C9FB500215788 /* Build configuration list for PBXNativeTarget "CakeTimeUITests" */;
+			buildPhases = (
+				8704D0322E6C9FB500215788 /* Sources */,
+				8704D0332E6C9FB500215788 /* Frameworks */,
+				8704D0342E6C9FB500215788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8704D0382E6C9FB500215788 /* PBXTargetDependency */,
+			);
+			name = CakeTimeUITests;
+			productName = CakeTimeUITests;
+			productReference = 8704D0362E6C9FB500215788 /* CakeTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8704D0142E6C9FB300215788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8704D01B2E6C9FB300215788 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8704D02B2E6C9FB400215788 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8704D01B2E6C9FB300215788;
+					};
+					8704D0352E6C9FB500215788 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8704D01B2E6C9FB300215788;
+					};
+				};
+			};
+			buildConfigurationList = 8704D0172E6C9FB300215788 /* Build configuration list for PBXProject "CakeTime" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8704D0132E6C9FB300215788;
+			productRefGroup = 8704D01D2E6C9FB300215788 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 87FF357A2ECD0E06006873E4 /* Products */;
+					ProjectRef = 87FF35782ECD0E06006873E4 /* CakeTime.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8704D01B2E6C9FB300215788 /* CakeTime */,
+				8704D02B2E6C9FB400215788 /* CakeTimeTests */,
+				8704D0352E6C9FB500215788 /* CakeTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8704D01A2E6C9FB300215788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8704D0272E6C9FB400215788 /* Preview Assets.xcassets in Resources */,
+				87FF357F2ECD0E06006873E4 /* Preview Assets.xcassets in Resources */,
+				87FF35822ECD0E06006873E4 /* Assets.xcassets in Resources */,
+				8704D0242E6C9FB400215788 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8704D02A2E6C9FB400215788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8704D0342E6C9FB500215788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8704D0182E6C9FB300215788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FF35832ECD0E06006873E4 /* CakeTimeApp.swift in Sources */,
+				87FF357E2ECD0E06006873E4 /* Birthday.swift in Sources */,
+				87FF357C2ECD0E06006873E4 /* BirthdayManager.swift in Sources */,
+				87FF35812ECD0E06006873E4 /* BirthdayListView.swift in Sources */,
+				8704D0222E6C9FB300215788 /* ContentView.swift in Sources */,
+				87FF35842ECD0E06006873E4 /* ContentView.swift in Sources */,
+				87FF357D2ECD0E06006873E4 /* NotificationManager.swift in Sources */,
+				8704D0202E6C9FB300215788 /* CakeTimeApp.swift in Sources */,
+				87FF35802ECD0E06006873E4 /* AddEditBirthdayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8704D0282E6C9FB400215788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8704D0312E6C9FB400215788 /* CakeTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8704D0322E6C9FB500215788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8704D03D2E6C9FB500215788 /* CakeTimeUITestsLaunchTests.swift in Sources */,
+				8704D03B2E6C9FB500215788 /* CakeTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8704D02E2E6C9FB400215788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8704D01B2E6C9FB300215788 /* CakeTime */;
+			targetProxy = 8704D02D2E6C9FB400215788 /* PBXContainerItemProxy */;
+		};
+		8704D0382E6C9FB500215788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8704D01B2E6C9FB300215788 /* CakeTime */;
+			targetProxy = 8704D0372E6C9FB500215788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8704D03E2E6C9FB500215788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8704D03F2E6C9FB500215788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8704D0412E6C9FB500215788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CakeTime/Preview Content\"";
+				DEVELOPMENT_TEAM = K388V9423D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akimender.CakeTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8704D0422E6C9FB500215788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CakeTime/Preview Content\"";
+				DEVELOPMENT_TEAM = K388V9423D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akimender.CakeTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8704D0442E6C9FB500215788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K388V9423D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akimender.CakeTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CakeTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CakeTime";
+			};
+			name = Debug;
+		};
+		8704D0452E6C9FB500215788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K388V9423D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akimender.CakeTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CakeTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CakeTime";
+			};
+			name = Release;
+		};
+		8704D0472E6C9FB500215788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K388V9423D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akimender.CakeTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CakeTime;
+			};
+			name = Debug;
+		};
+		8704D0482E6C9FB500215788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K388V9423D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akimender.CakeTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CakeTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8704D0172E6C9FB300215788 /* Build configuration list for PBXProject "CakeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8704D03E2E6C9FB500215788 /* Debug */,
+				8704D03F2E6C9FB500215788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8704D0402E6C9FB500215788 /* Build configuration list for PBXNativeTarget "CakeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8704D0412E6C9FB500215788 /* Debug */,
+				8704D0422E6C9FB500215788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8704D0432E6C9FB500215788 /* Build configuration list for PBXNativeTarget "CakeTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8704D0442E6C9FB500215788 /* Debug */,
+				8704D0452E6C9FB500215788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8704D0462E6C9FB500215788 /* Build configuration list for PBXNativeTarget "CakeTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8704D0472E6C9FB500215788 /* Debug */,
+				8704D0482E6C9FB500215788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8704D0142E6C9FB300215788 /* Project object */;
+}
