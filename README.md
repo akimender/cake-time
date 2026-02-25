@@ -18,8 +18,8 @@ Design pattern:
     - '/register' : register page
     - '/home' : only accessible by authenticated users. non-authenticated users will be redirected to /
     - 'api/birthdays/create' : API endpoint or new form page to create a birthday
-    - 'api/birthdays/update' : API endpoint to edit birthday, but this will be done in '/home' page
-    - 'api/birthdays/delete' : API endpoint to delete birthday, but this will be done in '/home' page
+    - 'api/birthdays/update/<int:birthday_id>' : API endpoint to edit birthday, but this will be done in '/home' page
+    - 'api/birthdays/delete<int:birthday_id>' : API endpoint to delete birthday, but this will be done in '/home' page
 
 Models (going to use Django and its built-in User auth):
 
