@@ -1,0 +1,89 @@
+.logged-in-landing {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logged-in-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.logged-in-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logged-in-logo {
+  font-size: 1.75rem;
+}
+
+.logged-in-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text);
+  letter-spacing: -0.02em;
+}
+
+.logged-in-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logged-in-logout {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: var(--radius);
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+
+.logged-in-logout:hover {
+  color: var(--color-text);
+  border-color: rgba(0, 0, 0, 0.2);
+  background: var(--color-bg);
+}
+
+.logged-in-main {
+  flex: 1;
+  padding: 2rem 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.logged-in-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  color: var(--color-text);
+}
+
+.logged-in-lead {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.logged-in-footer {
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
+.logged-in-footer p {
+  margin: 0;
+}

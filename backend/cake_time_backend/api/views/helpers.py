@@ -1,7 +1,42 @@
+from django.http import JsonResponse
+from django.contrib.auth import get_user_model
 from rest_framework.response import Response
 from rest_framework import status
 
-def update_birthday_object(birthday: Birthday, data: dict):
+User = get_user_model()
+
+def check_register_credentials(username, password, email):
+    errors = {}
+
+    if not username:
+        errors["username"] = "This field is required."
+    elif User.objects.filter(username=username).exists():
+        errors["username"] = "A user with that username already exists."
+
+    if not password:
+        errors["password"] = "This field is required."
+    else:
+        from django.contrib.auth.password_validation import validate_password
+        try:
+            validate_password(password)
+        except Exception as e:
+            errors["password"] = " ".join(getattr(e, "messages", [str(e)]))
+
+    if errors:
+        return JsonResponse({"error": "Validation failed.", "details": errors}, status=400)
+    
+    return None
+
+def update_birthday_object(birthday: dict, data: dict):
+    """
+    Updates the fields of a Birthday object based on the provided data dictionary.
+
+    Fields updated (if present in data): name, birth_day, birth_month, birth_year, notes.
+    Validates birth_day and birth_month using validate_birth_date().
+    Returns:
+        - None if all fields are valid and birthday object has been updated.
+        - Response object with validation error if birth_day or birth_month are invalid.
+    """
     if 'name' in data:
         birthday.name = data['name']
     
@@ -26,7 +61,17 @@ def update_birthday_object(birthday: Birthday, data: dict):
     return None
 
 def birthday_created_response(birthday: dict, status: status):
-        return Response({
+    """
+    Returns a Response object indicating that a Birthday object was successfully created.
+
+    Args:
+        birthday (dict): The birthday object (likely a model instance) with relevant attributes.
+        status (status): The DRF status module or object, to obtain HTTP response codes.
+
+    Returns:
+        Response: DRF Response containing the created birthday's data with HTTP_201_CREATED status.
+    """
+    return Response({
         'id': birthday.id,
         'name': birthday.name,
         'birth_day': birthday.birth_day,

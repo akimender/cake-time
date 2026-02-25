@@ -1,7 +1,15 @@
 import { Link } from 'react-router-dom'
+import { useAuth } from '../context/AuthContext'
+import LoggedInLanding from './LoggedInLanding'
 import './LandingPage.css'
 
 export default function LandingPage() {
+  const { isAuthenticated } = useAuth()
+
+  if (isAuthenticated) {
+    return <LoggedInLanding />
+  }
+
   return (
     <div className="landing">
       <header className="landing-header">

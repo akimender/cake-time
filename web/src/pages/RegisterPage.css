@@ -1,0 +1,122 @@
+.register-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 400px;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: 2rem;
+}
+
+.register-back {
+  display: inline-block;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 1.25rem;
+}
+
+.register-back:hover {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.register-card h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+  color: var(--color-text);
+}
+
+.register-lead {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  margin: 0 0 1.5rem;
+  line-height: 1.5;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.register-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.register-optional {
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
+.register-input {
+  padding: 0.65rem 0.85rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: var(--radius);
+  background: var(--color-bg);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.register-input:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px var(--color-accent-soft);
+}
+
+.register-input.is-invalid {
+  border-color: #dc2626;
+}
+
+.register-error {
+  font-size: 0.8rem;
+  color: #dc2626;
+  font-weight: 500;
+}
+
+.register-submit {
+  margin-top: 0.25rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background: var(--color-accent);
+  border: none;
+  border-radius: var(--radius);
+  transition: background 0.2s;
+}
+
+.register-submit:hover:not(:disabled) {
+  background: var(--color-accent-hover);
+}
+
+.register-submit:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.register-footer {
+  margin: 1.5rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.register-footer a {
+  font-weight: 500;
+}
