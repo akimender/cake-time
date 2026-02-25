@@ -18,7 +18,7 @@ def delete_birthday(request, birthday_id):
             status=status.HTTP_404_NOT_FOUND
         )
     
-    birthday_name = birthday.name
+    birthday_name = birthday.name # Save birthday name for message
     
     try:
         birthday.delete()

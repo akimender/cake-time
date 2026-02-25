@@ -3,7 +3,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework import status
 from api.models import Birthday
-from .helpers import validate_birth_date
+from .helpers import update_birthday_object
 
 @api_view(['PUT', 'PATCH'])
 @permission_classes([IsAuthenticated])
@@ -19,27 +19,10 @@ def update_birthday(request, birthday_id):
         )
     
     data = request.data
-    
-    if 'name' in data:
-        birthday.name = data['name']
-    
-    birth_day, birth_month = data.get('birth_day'), data.get('birth_month')
-    
-    validation_error = validate_birth_date(birth_day, birth_month)
-    if validation_error:
-        return validation_error
-    
-    if birth_day is not None:
-        birthday.birth_day = birth_day
-    
-    if birth_month is not None:
-        birthday.birth_month = birth_month
-    
-    if 'birth_year' in data:
-        birthday.birth_year = data['birth_year']
-    
-    if 'notes' in data:
-        birthday.notes = data['notes']
+
+    update_birthday_error = update_birthday_object(birthday, data)
+    if update_birthday_error:
+        return update_birthday_error
     
     try:
         birthday.save()

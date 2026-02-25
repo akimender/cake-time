@@ -1,6 +1,30 @@
 from rest_framework.response import Response
 from rest_framework import status
 
+def update_birthday_object(birthday: Birthday, data: dict):
+    if 'name' in data:
+        birthday.name = data['name']
+    
+    birth_day, birth_month = data.get('birth_day'), data.get('birth_month')
+    
+    validation_error = validate_birth_date(birth_day, birth_month)
+    if validation_error:
+        return validation_error
+    
+    if birth_day is not None:
+        birthday.birth_day = birth_day
+    
+    if birth_month is not None:
+        birthday.birth_month = birth_month
+    
+    if 'birth_year' in data:
+        birthday.birth_year = data['birth_year']
+    
+    if 'notes' in data:
+        birthday.notes = data['notes']
+
+    return None
+
 def birthday_created_response(birthday: dict, status: status):
         return Response({
         'id': birthday.id,
