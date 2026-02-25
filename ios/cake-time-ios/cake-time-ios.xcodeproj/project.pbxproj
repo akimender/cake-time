@@ -11,6 +11,16 @@
 		878E1ABC2F4F9F0B00F97897 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E1ABB2F4F9F0B00F97897 /* ContentView.swift */; };
 		878E1ABE2F4F9F0C00F97897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878E1ABD2F4F9F0C00F97897 /* Assets.xcassets */; };
 		878E1AC12F4F9F0C00F97897 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878E1AC02F4F9F0C00F97897 /* Preview Assets.xcassets */; };
+		878E1AC72F4F9F0C00F97897 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E1AC72F4F9F0C00F97896 /* AppConfig.swift */; };
+		878E1AC82F4F9F0C00F97897 /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E1AC82F4F9F0C00F97896 /* Birthday.swift */; };
+		878E1AC92F4F9F0C00F97897 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E1AC92F4F9F0C00F97896 /* AuthService.swift */; };
+		878E1ACA2F4F9F0C00F97897 /* BirthdayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E1ACA2F4F9F0C00F97896 /* BirthdayService.swift */; };
+		878E1ACB2F4F9F0C00F97897 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E1ACB2F4F9F0C00F97896 /* Theme.swift */; };
+		878E1ACC2F4F9F0C00F97897 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E1ACC2F4F9F0C00F97896 /* LandingView.swift */; };
+		878E1ACD2F4F9F0C00F97897 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E1ACD2F4F9F0C00F97896 /* LoginView.swift */; };
+		878E1ACE2F4F9F0C00F97897 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E1ACE2F4F9F0C00F97896 /* RegisterView.swift */; };
+		878E1ACF2F4F9F0C00F97897 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E1ACF2F4F9F0C00F97896 /* HomeView.swift */; };
+		878E1AD02F4F9F0C00F97897 /* BirthdayFormSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878E1AD02F4F9F0C00F97896 /* BirthdayFormSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,17 @@
 		878E1ABB2F4F9F0B00F97897 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		878E1ABD2F4F9F0C00F97897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		878E1AC02F4F9F0C00F97897 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		878E1AC72F4F9F0C00F97896 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		878E1AC82F4F9F0C00F97896 /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
+		878E1AC92F4F9F0C00F97896 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		878E1ACA2F4F9F0C00F97896 /* BirthdayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayService.swift; sourceTree = "<group>"; };
+		878E1ACB2F4F9F0C00F97896 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		878E1ACC2F4F9F0C00F97896 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		878E1ACD2F4F9F0C00F97896 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		878E1ACE2F4F9F0C00F97896 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		878E1ACF2F4F9F0C00F97896 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		878E1AD02F4F9F0C00F97896 /* BirthdayFormSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayFormSheet.swift; sourceTree = "<group>"; };
+		878E1AD12F4F9F0C00F97896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +74,53 @@
 			children = (
 				878E1AB92F4F9F0B00F97897 /* cake_time_iosApp.swift */,
 				878E1ABB2F4F9F0B00F97897 /* ContentView.swift */,
+				878E1AD12F4F9F0C00F97896 /* Info.plist */,
+				878E1AC72F4F9F0C00F97896 /* AppConfig.swift */,
+				878E1ABE2F4F9F0C00F97896 /* Models */,
+				878E1ABF2F4F9F0C00F97896 /* Services */,
+				878E1AC02F4F9F0C00F97896 /* Theme */,
+				878E1AC12F4F9F0C00F97896 /* Views */,
 				878E1ABD2F4F9F0C00F97897 /* Assets.xcassets */,
 				878E1ABF2F4F9F0C00F97897 /* Preview Content */,
 			);
 			path = "cake-time-ios";
+			sourceTree = "<group>";
+		};
+		878E1ABE2F4F9F0C00F97896 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				878E1AC82F4F9F0C00F97896 /* Birthday.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		878E1ABF2F4F9F0C00F97896 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				878E1AC92F4F9F0C00F97896 /* AuthService.swift */,
+				878E1ACA2F4F9F0C00F97896 /* BirthdayService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		878E1AC02F4F9F0C00F97896 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				878E1ACB2F4F9F0C00F97896 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		878E1AC12F4F9F0C00F97896 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				878E1ACC2F4F9F0C00F97896 /* LandingView.swift */,
+				878E1ACD2F4F9F0C00F97896 /* LoginView.swift */,
+				878E1ACE2F4F9F0C00F97896 /* RegisterView.swift */,
+				878E1ACF2F4F9F0C00F97896 /* HomeView.swift */,
+				878E1AD02F4F9F0C00F97896 /* BirthdayFormSheet.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		878E1ABF2F4F9F0C00F97897 /* Preview Content */ = {
@@ -137,8 +201,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				878E1ABC2F4F9F0B00F97897 /* ContentView.swift in Sources */,
 				878E1ABA2F4F9F0B00F97897 /* cake_time_iosApp.swift in Sources */,
+				878E1ABC2F4F9F0B00F97897 /* ContentView.swift in Sources */,
+				878E1AC72F4F9F0C00F97897 /* AppConfig.swift in Sources */,
+				878E1AC82F4F9F0C00F97897 /* Birthday.swift in Sources */,
+				878E1AC92F4F9F0C00F97897 /* AuthService.swift in Sources */,
+				878E1ACA2F4F9F0C00F97897 /* BirthdayService.swift in Sources */,
+				878E1ACB2F4F9F0C00F97897 /* Theme.swift in Sources */,
+				878E1ACC2F4F9F0C00F97897 /* LandingView.swift in Sources */,
+				878E1ACD2F4F9F0C00F97897 /* LoginView.swift in Sources */,
+				878E1ACE2F4F9F0C00F97897 /* RegisterView.swift in Sources */,
+				878E1ACF2F4F9F0C00F97897 /* HomeView.swift in Sources */,
+				878E1AD02F4F9F0C00F97897 /* BirthdayFormSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +349,7 @@
 				DEVELOPMENT_TEAM = K388V9423D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cake-time-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +379,7 @@
 				DEVELOPMENT_TEAM = K388V9423D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cake-time-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

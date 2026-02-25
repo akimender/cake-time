@@ -2,20 +2,34 @@
 //  ContentView.swift
 //  cake-time-ios
 //
-//  Created by Andrew Kim on 2/25/26.
-//
 
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var auth = AuthService.shared
+    @State private var showLogin = false
+    @State private var showRegister = false
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Group {
+            if auth.isLoggedIn {
+                HomeView(auth: auth)
+            } else {
+                LandingView(showLogin: $showLogin, showRegister: $showRegister)
+            }
         }
-        .padding()
+        .fullScreenCover(isPresented: $showLogin) {
+            LoginView(auth: auth)
+                .onDisappear { showLogin = false }
+        }
+        .fullScreenCover(isPresented: $showRegister) {
+            RegisterView(auth: auth, onDismiss: {
+                showRegister = false
+            }, onRegisterSuccess: {
+                showRegister = false
+                showLogin = true
+            })
+        }
     }
 }
 
