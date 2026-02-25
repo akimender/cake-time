@@ -47,6 +47,13 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
+# Web (Vite/React)
+web/node_modules/
+web/dist/
+web/.env
+web/.env.local
+web/.env.*.local
+
 # Build files
 dist/
 build/
