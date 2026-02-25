@@ -87,3 +87,250 @@
 .logged-in-footer p {
   margin: 0;
 }
+
+/* Birthday list & toolbar */
+.birthday-toolbar {
+  margin-bottom: 1rem;
+}
+
+.birthday-add-btn {
+  padding: 0.6rem 1.25rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: white;
+  background: var(--color-accent);
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.birthday-add-btn:hover {
+  background: var(--color-accent-hover);
+}
+
+.birthday-status {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  margin: 0.5rem 0;
+}
+
+.birthday-status.error {
+  color: #dc2626;
+}
+
+.birthday-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.birthday-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--color-surface);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: var(--radius);
+  margin-bottom: 0.5rem;
+}
+
+.birthday-item-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.birthday-item-name {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.birthday-item-date {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.birthday-item-notes {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.birthday-item-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.birthday-item-btn {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: var(--radius);
+  background: var(--color-bg);
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.birthday-item-btn.edit:hover {
+  border-color: var(--color-accent);
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+}
+
+.birthday-item-btn.delete:hover {
+  border-color: #dc2626;
+  background: #fef2f2;
+  color: #dc2626;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+.modal {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 420px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.modal.modal-sm {
+  max-width: 360px;
+}
+
+.modal-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 1rem;
+  color: var(--color-text);
+}
+
+.modal-text {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  margin: 0 0 1rem;
+  line-height: 1.5;
+}
+
+/* Birthday form */
+.birthday-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.birthday-form-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.birthday-form-optional {
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
+.birthday-form-row {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.birthday-form-row .birthday-form-label {
+  flex: 1;
+  min-width: 80px;
+}
+
+.birthday-form-row .birthday-form-label:last-of-type {
+  min-width: 100px;
+}
+
+.birthday-form-input {
+  padding: 0.6rem 0.75rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: var(--radius);
+  background: var(--color-bg);
+}
+
+.birthday-form-input:focus {
+  outline: none;
+  border-color: var(--color-accent);
+}
+
+.birthday-form-notes {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.birthday-form-error {
+  font-size: 0.85rem;
+  color: #dc2626;
+  margin: 0;
+}
+
+.birthday-form-actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: flex-end;
+  margin-top: 0.25rem;
+}
+
+.birthday-form-btn {
+  padding: 0.6rem 1.25rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.birthday-form-btn.secondary {
+  background: var(--color-bg);
+  color: var(--color-text);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.birthday-form-btn.secondary:hover {
+  background: #e5e5e5;
+}
+
+.birthday-form-btn.primary {
+  background: var(--color-accent);
+  color: white;
+}
+
+.birthday-form-btn.primary:hover {
+  background: var(--color-accent-hover);
+}
+
+.birthday-form-btn.delete {
+  background: #dc2626;
+  color: white;
+}
+
+.birthday-form-btn.delete:hover {
+  background: #b91c1c;
+}

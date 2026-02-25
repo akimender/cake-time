@@ -76,6 +76,18 @@ export async function register({ username, email, password }) {
 }
 
 /**
+ * Headers for authenticated API requests (Bearer JWT). Returns null if not logged in or token expired.
+ */
+export function getAuthHeaders() {
+  const auth = getStoredAuth()
+  if (!auth?.accessToken) return null
+  return {
+    'Content-Type': 'application/json',
+    Authorization: `Bearer ${auth.accessToken}`,
+  }
+}
+
+/**
  * Log in with username and password. Returns { access, refresh } from API and stores auth.
  */
 export async function login({ username, password }) {

@@ -33,7 +33,7 @@ def create_birthday(request):
             notes=data.get('notes', '')
         )
         
-        return birthday_created_response(birthday)
+        return birthday_created_response(birthday, status)
         
     except Exception as e:
         return Response(
