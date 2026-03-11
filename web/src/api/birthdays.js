@@ -1,6 +1,6 @@
 import { getAuthHeaders } from './auth'
 
-const API_BASE = '/api'
+const API_BASE = `${import.meta.env.VITE_BACKEND_API_URL || ''}/api`
 
 /**
  * Run an authenticated request. Throws with { status, ...body } on non-2xx.

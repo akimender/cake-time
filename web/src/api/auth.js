@@ -1,4 +1,4 @@
-const API_BASE = '/api'
+const API_BASE = `${import.meta.env.VITE_BACKEND_API_URL || ''}/api`
 const AUTH_STORAGE_KEY = 'cake_time_auth'
 
 /**
