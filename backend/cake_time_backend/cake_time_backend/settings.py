@@ -64,7 +64,8 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000", # Test dev environment
+    "http://localhost:3000",
+    "https://cake-time-green.vercel.app",
 ]
 
 ROOT_URLCONF = 'cake_time_backend.urls'
