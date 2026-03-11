@@ -9,7 +9,7 @@ struct LandingView: View {
     @Binding var showLogin: Bool
     @Binding var showRegister: Bool
 
-    var body: some View {
+    var body: some View {   
         VStack(spacing: 0) {
             Spacer()
 
