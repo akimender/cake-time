@@ -1,7 +1,8 @@
 from django.urls import path
-from .views import create_birthday, update_birthday, delete_birthday, list_birthdays, register
+from .views import index, create_birthday, update_birthday, delete_birthday, list_birthdays, register
 
 urlpatterns = [
+    path('index/', index, name='index'),
     path('register/', register, name='register'),
     path('birthdays/', list_birthdays, name='list_birthdays'),
     path('birthdays/create/', create_birthday, name='create_birthday'),
